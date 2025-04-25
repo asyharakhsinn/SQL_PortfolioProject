@@ -3,9 +3,15 @@
 Data Cleaning in SQL Queries
 
 */
-
+/*
+Ini adalah Ritual awal di SQL server Management Studio
+kalo mau mastiin data semuanya terekam dengan baik
+*/
 Select *
 From NashvilleHousing
+
+Select *
+From NashvillwHousing
 -------------------------------------------------------------------------------------------
 --Standardize Date Format
 
