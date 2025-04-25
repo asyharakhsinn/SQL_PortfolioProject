@@ -56,6 +56,7 @@ Select continent, max(cast (total_deaths as int)) as HighestDeathCounts
 from CovidDeaths
 Where continent is not null
 -- Tujuan where is not null adalah untuk menghilangkan continent yang bernilai NULL
+-- Karena nilai NULL pada continent tidak bernilai atau tidak berarti apa apa
 Group By continent
 Order By HighestDeathCounts desc
 
