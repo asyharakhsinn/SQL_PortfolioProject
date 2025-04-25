@@ -152,3 +152,7 @@ Select dea.continent, dea.location, dea.date, dea.population,
 
 select *
 from PercentPopulationVaccinated
+
+Select continent
+from PercentPopulationVaccinated
+Where continent = 'Australia'
