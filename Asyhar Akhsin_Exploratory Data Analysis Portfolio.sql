@@ -156,3 +156,30 @@ from PercentPopulationVaccinated
 Select continent
 from PercentPopulationVaccinated
 Where continent = 'Australia'
+
+-- CASE STATEMENT SQL
+Select Nama_Depan, Nama_Belakang, Umur,
+Case
+	When Umur <= 30 Then 'Muda'
+	When Umur Between 31 and 50 Then 'Tua'
+	When Umur >= 51 Then 'Lansia'
+	END
+	AS Klasifikasi_Umur
+From Informasi_Karyawan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
